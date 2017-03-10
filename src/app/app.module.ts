@@ -1,24 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, NgModuleFactoryLoader } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
-import { TodoAppComponent } from './app.component';
+import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    TodoAppComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    CommonModule,
-    FormsModule
+    FormsModule,
+    HttpModule
   ],
-  providers: [
-  ],
-  entryComponents: [TodoAppComponent],
-  bootstrap: [TodoAppComponent]
+  providers: [],
+  bootstrap: [AppComponent]
 })
-export class AppModule {
-
-}
+export class AppModule { }

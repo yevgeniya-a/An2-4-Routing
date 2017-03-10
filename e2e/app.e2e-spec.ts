@@ -1,10 +1,10 @@
-import { An24RoutingNewPage } from './app.po';
+import { AngularRoutingPage } from './app.po';
 
-describe('an2-4-routing-new App', function() {
-  let page: An24RoutingNewPage;
+describe('angular-routing App', () => {
+  let page: AngularRoutingPage;
 
   beforeEach(() => {
-    page = new An24RoutingNewPage();
+    page = new AngularRoutingPage();
   });
 
   it('should display message saying app works', () => {

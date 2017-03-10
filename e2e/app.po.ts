@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class An24RoutingNewPage {
+export class AngularRoutingPage {
   navigateTo() {
     return browser.get('/');
   }
